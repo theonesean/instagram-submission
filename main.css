@@ -1,0 +1,39 @@
+.ig-container {
+  /* display: flex; */
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  width: 25%;
+  /* width: 375px; */
+  margin: 2% auto 2% auto;
+  /* Question 1: How is this working - why 2% have so much of an effect.
+  Anyways Sean's solution is set things in the viewport.  Vw and Vh */
+}
+
+/* QUESTION: Why doesn't the height of ig-row need to be set? I am guessing that a Div has a default height? or is it that the text within the div has default padding - Does that change if it is a Div with flex display? */
+.ig-row {
+  padding: 12px;
+}
+
+/*   Would be different in flexbox anyways. Flex end... */
+.right-icon {
+  float: right;
+}
+
+/* Could be made responsive */
+.ig-image-div {
+  margin: 30px 0;
+}
+
+.ig-picture {
+  height: 410px;
+}
+
+/* You can use the font awesome sizing classes - or to be 'pixel perfect,' Sean notes he often sets them himself */
+i {
+  font-size: 1.5em;
+}
+
+/* Nice touch! */
+i:hover {
+  color: #8E8E8E;
+}
